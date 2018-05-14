@@ -1,0 +1,21 @@
+<style type="text/css">
+		.ui-grid-a .ui-block-a{
+			width: 30%;
+		}
+				.ui-grid-a .ui-block-b{
+			width: 70%;
+		}
+/*		.ui-myicon-back:after{
+			background-image: url("D:\tomcat\jspworkspace\selljqm\image\back.png");
+			background-size: 18px 18px;  
+			border-radius: 0; /*图标形态，0=方形，不设置就是默认的圆形*/  
+
+		}*/
+		.books after:{
+
+			background:  url（"./image/taotao.png"） 50% 50% no-repeat;
+
+			background-size: 16px 16px;
+
+	　　}
+	</style>

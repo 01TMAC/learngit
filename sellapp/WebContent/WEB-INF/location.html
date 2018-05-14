@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>位置</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js">
+	
+	</script>
+	<script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js">
+	</script>
+	<style type="text/css">
+		.mapcanvas{
+			width: 340px;
+			height:480px;
+			margin: 3px;
+			padding:2px;
+			background-color: #00ff00;
+		}
+		.span{
+			margin:2px;
+		}
+		.ui-btn-user{
+			background-image: url("./image/coke.png")!important;
+			background-repeat: no-repeat;
+			background-size: 27px 18px;
+		}
+		.ui-page-theme-a .ui-btn{
+			top: 10px;
+		}
+		.ui-mini.ui-btn-icon-right:after{
+			right: .7em;
+		}
+		.ui-mini.ui-btn-icon-left:after{
+			left: .7em;
+		}
+	</style>
+</head>
+<body>
+	<div data-role="page" id="main">
+		<div data-role="header">
+			<a href="" class="ui-btn ui-icon-plus ui-corner-all ui-nodisc-icon ui-alt-icon ui-btn-icon-left"></a>
+			<h1>APP</h1>
+			<a href="" class="ui-btn ui-icon-plus ui-btn-icon-right ui-corner-all ui-nodisc-icon ui-alt-icon ui-btn-icon-right"></a>
+		</div><!--header div  -->
+		<div data-role="content">
+			<div ><!--map -->
+				<canvas class="mapcanvas">
+					
+				</canvas>
+			</div>
+			<div>
+				<p>售货机的位置</p>
+				<p><span style="float: left" class="span">距离：120m</span><span style="float: right" class="span">库存：充足</span></p>
+				<a href="" class="ui-btn" style="clear: both;">查看该售货机</a>
+			</div><!-- -->
+		</div><!--content div -->
+		<div data-role="footer">
+			
+		</div><!--footer div -->
+	</div><!--page div -->
+</body>
+</html>
